@@ -29,7 +29,7 @@ window.onload = function(evt){
 // MOUSEMOVE EVENT 6
     document.body.addEventListener('mousemove', evt => {
         const { clientX, clientY} = evt
-       // console.log(`mouse is at ${clientX} and ${clientY}`)
+        console.log(`mouse is at ${clientX} and ${clientY}`)
     })
     // mouseEnter EVENT 7
     // MOUSELEAVE EVENT 8
